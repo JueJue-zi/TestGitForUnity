@@ -73,6 +73,10 @@ public class CheckTool: EditorWindow
         GUILayout.Label("\n");
         GUILayout.Label("工程正确性(检查动画组件丢失)");
         GUILayout.Label("请选中目录或多个目标后点击下方!");
+        GUILayout.Label("请选中目录或多个目标后点击下方!");
+        GUILayout.Label("请选中目录或多个目标后点击下方!");
+        GUILayout.Label("请选中目录或多个目标后点击下方!");
+        GUILayout.Label("请选中目录或多个目标后点击下方!");
         if(GUILayout.Button("工程正确性(检查动画组件丢失) Start Check!"))
         {
             if(OpenSelectTip())
