@@ -17,9 +17,9 @@ public class ModuleUpdateTool : EditorWindow {
 		// window.maxSize = new Vector2 (1500, 1500);
 		// window.Show ();
 
-		string path = System.Environment.CurrentDirectory + @"\Assets\LAZ_Framework\LAZ_EventManager";
+		string path = System.Environment.CurrentDirectory ;//+ @"\Assets\LAZ_Support\Editor\LAZ_CheckTool\CheckTool";
 
-		var status = Run ("log", path);
+		var status = Run ("st", path);
 		UnityEngine.Debug.LogError (status);
 	}
 
