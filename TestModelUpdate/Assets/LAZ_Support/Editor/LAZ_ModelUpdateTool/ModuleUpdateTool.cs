@@ -69,7 +69,7 @@ public class ModuleUpdateTool : EditorWindow {
 		}
 		string path = Application.dataPath + Path;
 		var git = new CommandRunner ("git", string.Empty);
-		var status = git.Run (@"reset --hard " + md5Code);
+		var status = git.Run (@"checkout " + md5Code);
 		return status;
 	}
 }
